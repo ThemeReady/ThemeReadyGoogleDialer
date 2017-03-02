@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/emergency_background" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" android:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/emergency_address_title" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/emergency_location_title" android:layout_columnWeight="1.0" style="@style/EmergencyAddressTitleTextStyle" />
+    <ImageView android:id="@id/emergency_location_map" android:layout_width="@dimen/emergency_map_width" android:layout_height="@dimen/emergency_map_height" android:scaleType="centerCrop" android:contentDescription="@string/emergency_location_map_description" android:layout_rowSpan="5" android:layout_marginStart="16.0dip" />
+    <TextView android:ellipsize="end" android:id="@id/emergency_address_line_one" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_columnWeight="1.0" style="@style/EmergencyAddressTextStyle" />
+    <TextView android:ellipsize="end" android:id="@id/emergency_address_line_two" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_columnWeight="1.0" style="@style/EmergencyAddressTextStyle" />
+    <TextView android:ellipsize="end" android:id="@id/latitude_line" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_columnWeight="1.0" style="@style/EmergencyAddressTextStyle" />
+    <TextView android:ellipsize="end" android:id="@id/longitude_line" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_columnWeight="1.0" style="@style/EmergencyAddressTextStyle" />
+</GridLayout>

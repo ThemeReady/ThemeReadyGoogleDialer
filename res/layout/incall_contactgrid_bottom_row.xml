@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/contactgrid_workIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_work_profile" android:scaleType="fitCenter" android:tint="#ffffffff" android:layout_marginEnd="8.0dip" />
+    <ImageView android:id="@id/contactgrid_hdIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/quantum_ic_hd_white_24" android:scaleType="fitCenter" android:layout_marginEnd="8.0dip" />
+    <ImageView android:id="@id/contactgrid_forwardIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/quantum_ic_forward_white_24" android:scaleType="fitCenter" android:layout_marginEnd="8.0dip" />
+    <ImageView android:id="@id/contactgrid_spamIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/quantum_ic_report_white_18" android:scaleType="fitCenter" android:layout_marginEnd="8.0dip" />
+    <ViewAnimator android:id="@id/contactgrid_bottom_text_switcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:measureAllChildren="false">
+        <TextView android:textAppearance="@style/Dialer.Incall.TextAppearance" android:layout_gravity="center_horizontal" android:id="@id/contactgrid_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <Chronometer android:textAppearance="@style/Dialer.Incall.TextAppearance" android:layout_gravity="center_horizontal" android:id="@id/contactgrid_bottom_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </ViewAnimator>
+</LinearLayout>

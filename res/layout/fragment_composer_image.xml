@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/answer_message_avatar" android:layout_width="@dimen/answer_message_avatar_size" android:layout_height="@dimen/answer_message_avatar_size" android:elevation="@dimen/answer_data_elevation" />
+    <ImageView android:id="@id/answer_message_image" android:background="@drawable/answer_data_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="4.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:elevation="@dimen/answer_data_elevation" android:outlineProvider="background" />
+</LinearLayout>
