@@ -654,9 +654,9 @@
         <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.ActionBar">
-        <item name="background">?colorPrimary</item>
-        <item name="backgroundStacked">?colorPrimary</item>
-        <item name="backgroundSplit">?colorPrimary</item>
+        <item name="background">@color/dialer_theme_color</item>
+        <item name="backgroundStacked">@color/dialer_theme_color</item>
+        <item name="backgroundSplit">@color/dialer_theme_color</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionBar.TabBar" parent="">
         <item name="divider">?actionBarDivider</item>
@@ -794,9 +794,9 @@
         <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.Light.ActionBar">
-        <item name="background">?colorPrimary</item>
-        <item name="backgroundStacked">?colorPrimary</item>
-        <item name="backgroundSplit">?colorPrimary</item>
+        <item name="background">@color/dialer_theme_color</item>
+        <item name="backgroundStacked">@color/dialer_theme_color</item>
+        <item name="backgroundSplit">@color/dialer_theme_color</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabBar" parent="@style/Base.Widget.AppCompat.ActionBar.TabBar" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@style/Base.Widget.AppCompat.ActionBar.TabText" />
@@ -933,7 +933,7 @@
         <item name="android:minWidth">56.0dip</item>
     </style>
     <style name="Base.Widget.Design.AppBarLayout" parent="@android:style/Widget">
-        <item name="android:background">?colorPrimary</item>
+        <item name="android:background">@color/dialer_theme_color</item>
     </style>
     <style name="Base.Widget.Design.TabLayout" parent="@android:style/Widget">
         <item name="tabIndicatorColor">?colorAccent</item>
@@ -1450,7 +1450,7 @@
     <style name="Platform.Widget.AppCompat.Spinner" parent="@android:style/Widget.Spinner" />
     <style name="PromoCardActionStyle" parent="@style/TextActionStyle">
         <item name="android:textSize">@dimen/call_log_primary_text_size</item>
-        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
     </style>
     <style name="RaisedErrorActionStyle" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textSize">14.0sp</item>

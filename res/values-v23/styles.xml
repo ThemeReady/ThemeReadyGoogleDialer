@@ -10,7 +10,7 @@
     <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
     <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
     <style name="CardView" parent="@style/Base.CardView">
-        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+        <item name="cardBackgroundColor">@color/background_floating_material_light</item>
     </style>
     <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
         <item name="actionBarItemBackground">?android:actionBarItemBackground</item>

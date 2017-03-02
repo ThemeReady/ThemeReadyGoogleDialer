@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/caller_information" android:background="@android:color/white" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/blocked_number_horizontal_margin"
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/caller_information" android:background="@color/blocked_number_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/blocked_number_horizontal_margin"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <QuickContactBadge android:id="@id/quick_contact_photo" android:focusable="true" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:layout_marginTop="@dimen/blocked_number_top_margin" android:layout_marginBottom="@dimen/blocked_number_bottom_margin" />
     <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/blocked_number_horizontal_margin">

@@ -5,22 +5,22 @@
         <item>ABSENTNUMBER</item>
     </string-array>
     <array name="background_colors">
-        <item>#ff00796b</item>
-        <item>#ff3367d6</item>
-        <item>#ff303f9f</item>
-        <item>#ff7b1fa2</item>
-        <item>#ffc2185b</item>
-        <item>#ffc53929</item>
-        <item>#ffa52714</item>
+        <item>@color/background_color_1</item>
+        <item>@color/background_color_2</item>
+        <item>@color/background_color_3</item>
+        <item>@color/background_color_4</item>
+        <item>@color/background_color_5</item>
+        <item>@color/background_color_6</item>
+        <item>@color/background_color_7</item>
     </array>
     <array name="background_colors_dark">
-        <item>#ff00695c</item>
-        <item>#ff2a56c6</item>
-        <item>#ff283593</item>
-        <item>#ff6a1b9a</item>
-        <item>#ffad1457</item>
-        <item>#ffb93221</item>
-        <item>#ff841f10</item>
+        <item>@color/background_color_dark_1</item>
+        <item>@color/background_color_dark_2</item>
+        <item>@color/background_color_dark_3</item>
+        <item>@color/background_color_dark_4</item>
+        <item>@color/background_color_dark_5</item>
+        <item>@color/background_color_dark_6</item>
+        <item>@color/background_color_dark_7</item>
     </array>
     <string-array name="dtmf_tone_length_entries">
         <item>Normal</item>
@@ -31,36 +31,36 @@
         <item>1</item>
     </string-array>
     <array name="letter_tile_colors">
-        <item>#ffdb4437</item>
-        <item>#ffe91e63</item>
-        <item>#ff9c27b0</item>
-        <item>#ff673ab7</item>
-        <item>#ff3f51b5</item>
-        <item>#ff4285f4</item>
-        <item>#ff039be5</item>
-        <item>#ff0097a7</item>
-        <item>#ff009688</item>
-        <item>#ff0f9d58</item>
-        <item>#ff689f38</item>
-        <item>#ffef6c00</item>
-        <item>#ffff5722</item>
-        <item>#ff757575</item>
+        <item>@color/letter_tile_red_color</item>
+        <item>@color/letter_tile_pink_color</item>
+        <item>@color/letter_tile_purple_color</item>
+        <item>@color/letter_tile_deep_purple_color</item>
+        <item>@color/letter_tile_indigo_color</item>
+        <item>@color/letter_tile_blue_color</item>
+        <item>@color/letter_tile_light_blue_color</item>
+        <item>@color/letter_tile_cyan_color</item>
+        <item>@color/letter_tile_teal_color</item>
+        <item>@color/letter_tile_green_color</item>
+        <item>@color/letter_tile_light_green_color</item>
+        <item>@color/letter_tile_orange_color</item>
+        <item>@color/letter_tile_deep_orange_color</item>
+        <item>@color/letter_tile_grey_color</item>
     </array>
     <array name="letter_tile_colors_dark">
-        <item>#ffc53929</item>
-        <item>#ffc2185b</item>
-        <item>#ff7b1fa2</item>
-        <item>#ff512da8</item>
-        <item>#ff303f9f</item>
-        <item>#ff3367d6</item>
-        <item>#ff0277bd</item>
-        <item>#ff006064</item>
-        <item>#ff00796b</item>
-        <item>#ff0b8043</item>
-        <item>#ff33691e</item>
-        <item>#ffe65100</item>
-        <item>#ffe64a19</item>
-        <item>#ff424242</item>
+        <item>@color/letter_tile_red_color_dark</item>
+        <item>@color/letter_tile_pink_color_dark</item>
+        <item>@color/letter_tile_purple_color_dark</item>
+        <item>@color/letter_tile_deep_purple_color_dark</item>
+        <item>@color/letter_tile_indigo_color_dark</item>
+        <item>@color/letter_tile_blue_color_dark</item>
+        <item>@color/letter_tile_light_blue_color_dark</item>
+        <item>@color/letter_tile_cyan_color_dark</item>
+        <item>@color/letter_tile_teal_color_dark</item>
+        <item>@color/letter_tile_green_color_dark</item>
+        <item>@color/letter_tile_light_green_color_dark</item>
+        <item>@color/letter_tile_orange_color_dark</item>
+        <item>@color/letter_tile_deep_orange_color_dark</item>
+        <item>@color/letter_tile_grey_color_dark</item>
     </array>
     <string-array name="voicemail_notification_vibrate_when_values">
         <item>always</item>

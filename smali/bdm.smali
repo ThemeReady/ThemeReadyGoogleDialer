@@ -1159,7 +1159,7 @@
 
     move-result-object v2
 
-    const v3, 0x106000b
+    const v3, 0x7f0b0015 # @color/background_floating_material_light
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getColor(I)I
 
